@@ -1,0 +1,53 @@
+body {
+    background-image: url('assets/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #A9A9A9;
+}
+
+.card {
+    text-align: center;
+    margin-top: 59px;
+}
+
+.login-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+p {
+    color: #000000;
+    margin-top: 35px;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #000000;
+}

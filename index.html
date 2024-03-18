@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="./style/style.css">
+    <title>javascript</title>
+    <style>
+        body {
+            background-image: url('assets/background1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            color: #000000; 
+        }
+    </style>
+    <style>
+        img {
+            width: 80%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class ="card">
+        <h1 style="color: rgb(0, 0, 0); font-size: 50px" >Danau Toba</h1>
+        <img id="DanauToba.jpg"  src="assets/DanauToba.jpg" alt="Danau Toba">
+        <p id="description">Danau Toba merupakan danau terbesar diIndonesia sekaligus danau vulkanik terbesar di dunia yang terletak di Provinsi Sumatra Uatara. 
+            Danau Toba adalah sebuah keajaiban alam yang sangat menakjubkan di Pulau Sumatra, Indonesia. 
+            Danau ini terbentuk dari letusan dahsyat sebuah gunung api, Gunung Toba, yang terjadi sekitar 74.000 tahun yang lalu. 
+            Dengan luas lebih dari 1.145 kilometer persegi dan kedalaman 450 meter, Danau Toba sebenarnya lebih mirip lautan daripada danau. 
+        </p>
+        <button id="btnToggleDescription">Tampilkan Detail</button>
+    <div>
+    <script src="main.js"></script>
+        <div class="login-form">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <button onclick="myFunction()" type="submit">Login</button></button>
+            </form>
+        </div>
+    <script>
+        function myFunction() {
+            alert("Hello World!")
+        }
+        function displayDateTime() {
+            var currentDate = new Date();
+            var dateElement = document.getElementById("date");
+            dateElement.textContent = "Date :" + currentDate.toLocaleDateString() + " Time: " + currentDate.toLocaleTimeString();
+        }
+        setInterval(displayDateTime, 1000);
+    </script>
+    <p id="date"></p>
+    <script src=" main.js"></script>
+</body>
+</html>
